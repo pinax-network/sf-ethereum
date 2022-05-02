@@ -8,7 +8,7 @@ for instructions to keep up to date.
 
 #### Changed
 
-* Added check in `console reader` for upcoming breaking deep mind version bump.
+* Added check in `console reader` for upcoming breaking Ethereum Block Version 2 bump.
 
 * Stop warning about no tracker being defined when calling 'bstream.Tracker.Get(ctx, bstream.NetworkLIBTarget)' in 'mindreader' and 'node'.
 
