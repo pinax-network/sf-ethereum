@@ -674,6 +674,8 @@ github.com/pinax-network/firehose v0.0.0-20220603133505-be061540323c h1:A1b2GsU8
 github.com/pinax-network/firehose v0.0.0-20220603133505-be061540323c/go.mod h1:gGIk+8aYQTU/40liP2GSFAm1WfLQi0+4VQ61mVx320o=
 github.com/pinax-network/firehose v0.0.0-20220603134840-e31606e68216 h1:5R+xFNdJi2JsL12hY8dWFSVWINoI6XaEHbV4AnXTreE=
 github.com/pinax-network/firehose v0.0.0-20220603134840-e31606e68216/go.mod h1:bpdrIGu9dVg/Egios35t5V+9D9Ko5BazI92SgpgLGgA=
+github.com/pinax-network/firehose v0.0.0-20220603141808-361b2c459681 h1:kgHByBoty1WrR3V/TqrIdx4xlmaFV+wl4VYfbQSs0+E=
+github.com/pinax-network/firehose v0.0.0-20220603141808-361b2c459681/go.mod h1:Je5SfPFNVVnPPpiTqa0o90KWOivlXVW2GlMcL2fm6Hg=
 github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
