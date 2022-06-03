@@ -23,16 +23,8 @@ jobs:
         with:
           go-version: ${{ matrix.go-version }}
 
-      - name: Setup SSH Keys and known_hosts
-        env:
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-        run: |
-          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
-          ssh-add - <<< "${{ secrets.SSH_EOSN_DEPLOY_KEY }}"
-          git config --global url."git@github.com:pinax-network".insteadOf "https://github.com/pinax-network"
-
       - name: Check out code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Cache Go modules
         uses: actions/cache@v3
@@ -50,13 +42,7 @@ jobs:
             ${{ runner.os }}-go-
 
       - name: Run Tests
-        env:
-          GOPRIVATE: github.com/pinax-network
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: ./bin/test.sh
 
       - name: Build
-        env:
-          GOPRIVATE: github.com/pinax-network
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: go build ./...
