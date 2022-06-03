@@ -39,7 +39,7 @@ require (
 	github.com/tidwall/gjson v1.12.1
 	go.uber.org/zap v1.21.0
 	google.golang.org/grpc v1.44.0
-	google.golang.org/protobuf v1.27.1
+	google.golang.org/protobuf v1.28.0
 )
 
 require (
@@ -70,6 +70,7 @@ require (
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/go-logr/logr v0.2.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
+	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/google/renameio v0.1.0 // indirect
@@ -100,6 +101,7 @@ require (
 	github.com/openzipkin/zipkin-go v0.1.6 // indirect
 	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
 	github.com/pelletier/go-toml v1.9.4 // indirect
+	github.com/pinax-network/dtypes v0.0.0-20220602164155-e63e72cc442e // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/pquerna/cachecontrol v0.1.0 // indirect
 	github.com/prometheus/client_golang v1.12.1 // indirect
@@ -158,5 +160,10 @@ replace (
 	github.com/ShinyTrinkets/overseer => github.com/streamingfast/overseer v0.2.1-0.20210326144022-ee491780e3ef
 	github.com/gorilla/rpc => github.com/streamingfast/rpc v1.2.1-0.20201124195002-f9fc01524e38
 	github.com/graph-gophers/graphql-go => github.com/streamingfast/graphql-go v0.0.0-20210204202750-0e485a040a3c
+
+	github.com/streamingfast/dauth => github.com/pinax-network/dauth v0.0.0-20220602162200-4b180cbd79e6
+	github.com/streamingfast/dmetering => github.com/pinax-network/dmetering v0.0.0-20220602163203-fdb64a72cef0
 	github.com/wasmerio/wasmer-go v1.0.4 => github.com/streamingfast/wasmer-go v1.0.5-0.20220512181019-cd8b01df1543
 )
+
+replace github.com/streamingfast/firehose => github.com/pinax-network/firehose v0.0.0-20220603123111-5e4210edbef8
