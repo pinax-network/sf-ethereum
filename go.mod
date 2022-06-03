@@ -56,6 +56,6 @@ replace (
 	github.com/graph-gophers/graphql-go => github.com/streamingfast/graphql-go v0.0.0-20210204202750-0e485a040a3c
 
 	github.com/streamingfast/dauth => github.com/pinax-network/dauth v0.0.0-20220602162200-4b180cbd79e6
-	github.com/streamingfast/dmetering => github.com/pinax-network/dmetering v0.0.0-20220602163203-fdb64a72cef0
+	github.com/streamingfast/dmetering => github.com/pinax-network/dmetering v0.0.0-20220603134802-eb929e68f1e2
 	github.com/streamingfast/firehose => github.com/pinax-network/firehose v0.0.0-20220603134840-e31606e68216
 )
