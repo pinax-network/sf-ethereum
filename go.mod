@@ -57,5 +57,5 @@ replace (
 
 	github.com/streamingfast/dauth => github.com/pinax-network/dauth v0.0.0-20220602162200-4b180cbd79e6
 	github.com/streamingfast/dmetering => github.com/pinax-network/dmetering v0.0.0-20220602163203-fdb64a72cef0
-	github.com/streamingfast/firehose => github.com/pinax-network/firehose v0.0.0-20220603123111-5e4210edbef8
+	github.com/streamingfast/firehose => github.com/pinax-network/firehose v0.0.0-20220603133505-be061540323c
 )
