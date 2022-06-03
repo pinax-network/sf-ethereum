@@ -28,6 +28,7 @@ import (
 	dauthAuthenticator "github.com/streamingfast/dauth/authenticator"
 	"github.com/streamingfast/dlauncher/launcher"
 	"github.com/streamingfast/dmetering"
+	_ "github.com/streamingfast/dmetering/redis"
 	"github.com/streamingfast/dmetrics"
 	"github.com/streamingfast/dstore"
 	"github.com/streamingfast/firehose"
